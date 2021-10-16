@@ -132,7 +132,26 @@ header .navbar a:hover{
     padding: 1rem 0;
 
 }
+.footer{
+    background: rgb(37, 53, 54);
+    text-align: center;
+}
+.footer .share{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
 
+}
+.footer .credit{
+    padding: 2.5rem 1rem;
+    color: #fff;
+    font-weight: normal;
+    font-size: 2rem;
+}
+.footer .credit span{
+    color: rgb(255, 145, 0);
+}
 
 
 
