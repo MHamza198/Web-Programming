@@ -152,6 +152,10 @@ header .navbar a:hover{
 .footer .credit span{
     color: rgb(255, 145, 0);
 }
+.heading{
+    text-align: center;
+    display: flex;
+}
 
 
 
