@@ -107,30 +107,30 @@ header .navbar a:hover{
     flex: 1 1 40rem;
 }
 .home .image img{
-   width: 100%; 
-   padding: 2rem;
-   animation:float 3s linear infinite;
+    width: 100%; 
+    padding: 2rem;
+    animation:float 3s linear infinite;
 }
 
 @keyframes float{
-     0%, 100%{
+    0%, 100%{
         transform: translateY(0rem); 
-     }
+    }
      50%{
-        transform: translateY(3rem); 
-     }
-}
-
-.home .content h3{
-    font-size: 4rem;
-    color: #333;
+         transform: translateY(3rem); 
+        }
+    }
     
-}
-.home .content p{
-    font-size: 1.7rem;
+    .home .content h3{
+        font-size: 4rem;
+        color: #333;
+        
+    }
+    .home .content p{
+        font-size: 1.7rem;
     color: #666;
     padding: 1rem 0;
-
+    
 }
 .footer{
     background: rgb(37, 53, 54);
@@ -141,7 +141,7 @@ header .navbar a:hover{
     gap: 1.5rem;
     justify-content: center;
     flex-wrap: wrap;
-
+    
 }
 .footer .credit{
     padding: 2.5rem 1rem;
@@ -156,8 +156,52 @@ header .navbar a:hover{
     text-align: center;
     display: flex;
 }
-
-
-
+.heading span{
+    color: rgb(255, 145, 0);
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    text-align: center;
+}
+.famous{
+    background:url(./gray-wall-textures-background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.famous .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 7rem;
+    
+    
+}
+.famous .box-container .box{
+    padding: 2rem;
+    background: #fff;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.3);
+    border-radius: .5rem;
+    text-align: center;
+    flex: 1 1 30rem;
+    position: relative;
+    
+}
+.famous .box-container .box img{
+    height: 25rem;
+    object-fit: cover;
+    width: 100%;
+    border-radius: .5rem;
+    
+}
+.famous .box-container .box h3{
+    color: #333;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    
+}
 
 
