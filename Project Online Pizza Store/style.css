@@ -153,8 +153,10 @@ header .navbar a:hover{
     color: rgb(255, 145, 0);
 }
 .heading{
+    padding: 10rem 0rem 0rem 0rem;
+    font-size: 4rem;
     text-align: center;
-    display: flex;
+    
 }
 .heading span{
     color: rgb(255, 145, 0);
@@ -175,7 +177,7 @@ header .navbar a:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
-    padding: 7rem;
+    padding: 4rem 10rem 7rem 10rem;
     
     
 }
